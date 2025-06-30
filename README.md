@@ -16,7 +16,7 @@ Fases:
 
 ## Levantamento de Requisitos
 - Um aluno só pode estar matriculado em um curso por vez.
-- Alunosd possuem um código de identificação(RA).
+- Alunos possuem um código de identificação(RA).
 - Cursos são compostos por disciplinas.
 - Cada disciplina terá no mámixo 30 alunos por turma.
 - As disciplinas podem ser obrigatórias ou optativas, dependendo do curso.
@@ -34,3 +34,54 @@ Fases:
 - Cada professor irá lecionar no máximo 4 disciplinas diferentes.
 - Cada professor é vinculado a um departamento.
 - Professores são identificados por um código de professor.
+- 
+## Identificando as Entidades
+- Aluno
+- Professor
+- Disciplina
+- Curso
+- Departamento
+
+## Identificando os Relacionamentos
+- Aluno está Matriculado em Curso.
+- Aluno Cursa Disciplina.
+- Aluno Realizou Disciplina.
+- Disciplina Pertence a Curso.
+- Professor Ministra Disciplina.
+- Professor Pertence a Departamento.
+- Departamento é Responsável por Disciplina.
+- Departamento Controla Curso.
+- Disciplina depende de Disciplina.
+
+## Identificando os Atributos -Aluno
+- Número de Matrícula.
+- Nome.
+- Endereço.
+  - Rua.
+  - Número.
+  - Bairro.
+  - CEP.
+  - Cidade.
+  - Estado.
+- Código do Curso.
+
+## Identificando os Atributos -Professor
+- Código do Professor.
+- Nome.
+- Código Departamento.
+
+ ##  Identificando os Atributos -Disciplina
+ - Código da Disciplina.
+ - Nome da Disciplina.
+ - Descrição Curricular.
+ - Código do Departamento.
+ - Números de Alunos.
+
+ ##  Identificando os Atributos -Curso
+ - Código do Curso.
+ - Nome do Curso.
+ - Código do Departamento.
+ ## Identificando os Atributos -Departamento
+ - Código do Departamento.
+ - Nome do Departamento.
+
