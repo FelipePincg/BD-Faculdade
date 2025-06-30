@@ -14,7 +14,7 @@ Fases:
 - Implementação
 - Teste Básico
 
-##Levantamento de Requisitos
+#Levantamento de Requisitos
 - Um aluno só pode estar matriculado em um curso por vez.
 - Alunosd possuem um código de identificação(RA).
 - Cursos são compostos por disciplinas.
