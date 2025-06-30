@@ -1,7 +1,7 @@
 # BD-Faculdade
 Banco de Dados para gerenciamento de uma Faculdade
 Objetivo do Banco de dados.
-Realizar controle centralizado de alunos, professores, cursos, disciplinas, histórico escola e turmas.
+Realizar controle centralizado de alunos, professores, cursos, disciplinas, histórico escolar e turmas.
 
 Fases do Projeto
 Fases:
